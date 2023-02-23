@@ -1,1 +1,35 @@
 @charset "UTF-8";
+
+input, select, button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #cff1ff;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.content-tittle {
+  font-size: 18px;
+  color: #000;
+}
+
+.label-section {
+  margin-top: 25px;
+}
+
+.label-text {
+  font-size: 14px;
+  color: #464646;
+}
