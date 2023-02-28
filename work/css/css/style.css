@@ -120,26 +120,26 @@ input, select, button {
 .gender-element span::before {
   content: "";
   position: absolute;
-  top: 50px;
+  top: 50%;
   left: 0px;
   width: 14px;
   height: 14px;
   background-color: #fbfbfb;
   border: 1px solid #d9d9d9;
   border-radius: 50%;
-  transform: translateY(-300%);
+  transform: translateY(-50%);
 }
 
 .gender-content:checked + span:after {
   content: "";
   position: absolute;
-  top: 50px;
+  top: 50%;
   left: 4px;
   width: 8px;
   height: 8px;
   background-color: #017cbf;
   border-radius: 50%;
-  transform: translateY(-550%);
+  transform: translateY(-50%);
 }
 
 .subscription-label {
@@ -150,11 +150,11 @@ input, select, button {
 .subscription-label::before {
   content: "";
   position: absolute;
-  top: 50px;
+  top: 50%;
   left: 0px;
   width: 15px;
   height: 15px;
-  margin-top: -50px;
+  margin-top: -8px;
   border: 1px solid #d9d9d9;
   background-color: #fff;
 }
@@ -162,7 +162,7 @@ input, select, button {
 .subscription-unit input:checked + .subscription-label::after {
   content: "";
   position: absolute;
-  top: 50px;
+  top: 50%;
   left:6px;
   width: 6px;
   height: 13px;
@@ -179,7 +179,7 @@ input, select, button {
   border-radius: 3px;
   box-sizing: border-box;
   font-size: 13px;
-  font-weight: 500px;
+  font-weight: 500;
   text-align: center;
   transition: 0.3s;
   padding: 13px;
